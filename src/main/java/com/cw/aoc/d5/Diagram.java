@@ -35,21 +35,6 @@ public class Diagram {
         }
         updateMinMax(from, to);
 
-        // make sure the line is aligned from low to high values of x
-//        int xDelta = to.getX() - from.getX();
-//        int yDelta = to.getY() - from.getY();
-//        if (xDelta < 0 || yDelta < 0) {
-//            Point x = from;
-//            from = to;
-//            to = x;
-//        }
-//
-//        for (int x = from.getX(); x <= to.getX(); x++) {
-//            for (int y = from.getY(); y <= to.getY(); y++) {
-//                map[y][x]++;
-//            }
-//        }
-
         int x = from.getX();
         int y = from.getY();
         while (true) {
